@@ -148,5 +148,9 @@ En este si escribe la palabra topico porque es en donde se va a imprimir en pant
 
 Antes de iniciar con las pruebas de comunicación tenemos que comprobar que el servidor mosquito está escuchando en el puerto 1883 porque es el puesto estándar que escucha el broker.
 
+
+![image](https://user-images.githubusercontent.com/63418581/88245914-8050ea00-cc5e-11ea-9b85-4daeb9ebefcc.png)
+
+
 Posterior a confirmar que está escuchando debemos ir al firewall de windows para habilitar el firewall para que permita conexiones externas con nuestro computador porque vienen desactivados por defecto.
 
