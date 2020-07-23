@@ -138,11 +138,11 @@ Recursos Utilizados
 
 Tópicos
 
-1.	mosquitto_sub -t "topico" -v: 
-En esta parte se escribe así porque va a ser el que reciba el mensaje para imprimir en pantalla.
+	mosquitto_sub -t "topico" -v: 
+o	En esta parte se escribe así porque va a ser el que reciba el mensaje para imprimir en pantalla.
 
-2.	mosquitto_pub -t "topico" -m "on":
-En este si escribe la palabra topico porque es en donde se va a imprimir en pantalla además de que se imprimirá con su mensaje. Ejemplo: topico on.
+	mosquitto_pub -t "topico" -m "on":
+o	En este si escribe la palabra topico porque es en donde se va a imprimir en pantalla además de que se imprimirá con su mensaje. Ejemplo: topico on.
 
 9. Descripción de pre-requisitos y configuración
 
