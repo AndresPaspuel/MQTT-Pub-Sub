@@ -113,4 +113,25 @@ Flujo básico de Mensajería Pub/ Sub
 
 ![image](https://user-images.githubusercontent.com/63418581/88245673-93af8580-cc5d-11ea-90df-4481f1170c5f.png)
 
-6.-
+6.-Lista de Componentes
+
+Recursos Utilizados
+
+●	Computadora o laptop
+
+●	Acceso a Internet
+
+●	Programa Mosquito
+
+
+7. Mapa de variable
+
+1.	sub: Mensaje a recibir.
+
+2.	pub: Mensaje a enviar.
+
+3.	-v: Mostrará el nombre del tema y mensaje.
+
+4.	-t y -m: Si está enviando múltiples valores, entonces necesitamos poner la cadena completa entre comillas.
+
+8.-
