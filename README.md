@@ -49,7 +49,7 @@ datos de monitoreo de inundaciones, datos de terremotos o tráfico los datos a
 través del protocolo MQTT pueden utilizarse para mejorar la forma de vida
 humana.
 
-Marco teórico 
+4. Marco teórico
 
 MQTT
 
@@ -101,3 +101,6 @@ Transformación
 
 En un sistema middleware basado en mensajes, el mensaje recibido en el consumidor no necesita ser idéntico al mensaje enviado desde un productor. Estos sistemas tienen inteligencia incorporada pudiendo transformar los mensajes, para que coincidan con los requisitos del consumidor. Una aplicación puede enviar un mensaje en su propio formato nativo y diferentes aplicaciones pueden recibir una copia del mensaje en su propio formato nativo. Muchos sistemas modernos de MOM proporcionan herramientas sofisticadas de transformación de mensajes (o mareo) que permiten especificar reglas de transformación.
 
+5.-Diagramas 
+
+Flujo básico de Mensajería Pub/ Sub
