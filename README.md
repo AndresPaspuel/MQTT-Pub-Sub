@@ -126,12 +126,27 @@ Recursos Utilizados
 
 7. Mapa de variable
 
-1.	sub: Mensaje a recibir.
+•	sub: Mensaje a recibir.
 
-2.	pub: Mensaje a enviar.
+•	pub: Mensaje a enviar.
 
-3.	-v: Mostrará el nombre del tema y mensaje.
+•	-v: Mostrará el nombre del tema y mensaje.
 
-4.	-t y -m: Si está enviando múltiples valores, entonces necesitamos poner la cadena completa entre comillas.
+•	-t y -m: Si está enviando múltiples valores, entonces necesitamos poner la cadena completa entre comillas.
 
-8.-
+8.-Descripción código fuente
+
+Tópicos
+
+1.	mosquitto_sub -t "topico" -v: 
+En esta parte se escribe así porque va a ser el que reciba el mensaje para imprimir en pantalla.
+
+2.	mosquitto_pub -t "topico" -m "on":
+En este si escribe la palabra topico porque es en donde se va a imprimir en pantalla además de que se imprimirá con su mensaje. Ejemplo: topico on.
+
+9. Descripción de pre-requisitos y configuración
+
+Antes de iniciar con las pruebas de comunicación tenemos que comprobar que el servidor mosquito está escuchando en el puerto 1883 porque es el puesto estándar que escucha el broker.
+
+Posterior a confirmar que está escuchando debemos ir al firewall de windows para habilitar el firewall para que permita conexiones externas con nuestro computador porque vienen desactivados por defecto.
+
