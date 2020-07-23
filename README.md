@@ -104,3 +104,13 @@ En un sistema middleware basado en mensajes, el mensaje recibido en el consumido
 5.-Diagramas 
 
 Flujo básico de Mensajería Pub/ Sub
+
+![image](https://user-images.githubusercontent.com/63418581/88245639-7e3a5b80-cc5d-11ea-9bda-def2368da1bb.png)
+
+![image](https://user-images.githubusercontent.com/63418581/88245648-85616980-cc5d-11ea-863c-9361079ba8ce.png)
+
+![image](https://user-images.githubusercontent.com/63418581/88245669-901bfe80-cc5d-11ea-9294-a668927ac9fb.png)
+
+![image](https://user-images.githubusercontent.com/63418581/88245673-93af8580-cc5d-11ea-90df-4481f1170c5f.png)
+
+6.-
